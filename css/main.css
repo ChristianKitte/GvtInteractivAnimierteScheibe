@@ -1,0 +1,82 @@
+.image_area {
+    position: absolute;
+    margin-left: 200px;
+    margin-top: 200px;
+    border-style: dotted;
+}
+
+.unvisible {
+    visibility: hidden;
+}
+
+.visible {
+    visibility: visible;
+}
+
+#deg0 {
+    transform: rotate(0deg);
+}
+
+#deg45 {
+    transform: rotate(45deg);
+}
+
+#deg90 {
+    transform: rotate(90deg);
+}
+
+.bg-sprite00 {
+    width: 64px;
+    height: 64px;
+    background: url('../images/css_sprites.png') -10px -10px;
+}
+
+.bg-sprite45 {
+    width: 64px;
+    height: 64px;
+    background: url('../images/css_sprites.png') -94px -10px;
+}
+
+.bg-sprite90 {
+    width: 64px;
+    height: 64px;
+    background: url('../images/css_sprites.png') -10px -94px;
+}
+
+.bg-sprite135 {
+    width: 64px;
+    height: 64px;
+    background: url('../images/css_sprites.png') -94px -94px;
+}
+
+.bg-sprite180 {
+    width: 64px;
+    height: 64px;
+    background: url('../images/css_sprites.png') -178px -10px;
+}
+
+.bg-sprite225 {
+    width: 64px;
+    height: 64px;
+    background: url('../images/css_sprites.png') -178px -94px;
+}
+
+.bg-sprite270 {
+    width: 64px;
+    height: 64px;
+    background: url('../images/css_sprites.png') -10px -178px;
+}
+
+.bg-sprite315 {
+    width: 64px;
+    height: 64px;
+    background: url('../images/css_sprites.png') -94px -178px;
+}
+
+.bg-download {
+    width: 64px;
+    height: 64px;
+    background: url('../images/css_sprites.png') -178px -178px;
+}
+
+
