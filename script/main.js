@@ -41,10 +41,12 @@ check_fortlaufen_drehen.onchange = (x) => {
         intervallID = setInterval("showNext(moveForward)", 125);
         document.getElementById("step_right").disabled = true;
         document.getElementById("step_left").disabled = true;
+        document.getElementById("rechts_drehen").disabled = false;
     } else {
         clearInterval(intervallID);
         document.getElementById("step_right").disabled = false;
         document.getElementById("step_left").disabled = false;
+        document.getElementById("rechts_drehen").disabled = true;
     }
 }
 
