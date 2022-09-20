@@ -7,18 +7,28 @@
 
 </head>
 <body>
-<div class="image_area">
-    <img class="bg-sprite00"/>
-    <img class="bg-sprite45"/>
-    <img class="bg-sprite90"/>
-    <img class="bg-sprite135"/>
-    <img class="bg-sprite180"/>
-    <img class="bg-sprite225"/>
-    <img class="bg-sprite270"/>
-    <img class="bg-sprite315"/>
-    <img class="bg-sprite00"/>
+
+<div id="buttonBar">
+    <button id="step_left" disabled="disabled">
+        Einen Schritt nach links
+    </button>
+    <button id="step_right" disabled="disabled">
+        Einen Schritt nach rechts
+    </button>
+</div>
+<div id="checkBar">
+    <input type="checkbox" id="rechts_drehen" name="rechts_drehen" value="1" checked="checked">
+    <label for="rechts_drehen">Nach rechts drehen</label>
+    <input type="checkbox" id="fortlaufen_drehen" name="fortlaufen_drehen" value="0" checked="unchecked">
+    <label for="fortlaufen_drehen">Fortlaufend drehen</label>
+</div>
+
+<div id="image_area">
+    <p id="percentTag">Percent:</p>
+    <div id="spriteImage" class="bg-spriteSize"></div>
 </div>
 
 <script src="script/main.js"></script>
+
 </body>
 </html>
