@@ -2,33 +2,61 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Interactiv animierte Scheibe</title>
-    <link rel="stylesheet" href="css/main.css">
+    <title>EA 1</title>
 
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/layout.css">
+
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
+          integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
 </head>
 <body>
 
-<div id="buttonBar">
-    <button id="step_left" disabled="disabled">
-        Einen Schritt nach links
-    </button>
-    <button id="step_right" disabled="disabled">
-        Einen Schritt nach rechts
-    </button>
-</div>
-<div id="checkBar">
-    <input type="checkbox" id="rechts_drehen" name="rechts_drehen" value="1" checked="checked">
-    <label for="rechts_drehen">Nach rechts drehen</label>
-    <input type="checkbox" id="fortlaufen_drehen" name="fortlaufen_drehen" value="0" checked="unchecked">
-    <label for="fortlaufen_drehen">Fortlaufend drehen</label>
-</div>
+<div id="layout">
+    <div id="caption">
+        <h1>EA 1 - Interaktiv animierte Scheibe</h1>
+        <h4>Es soll eine Sprite Animation erstellt und der Rotationszustand angezeigt werden</h4>
 
-<div id="image_area">
-    <p id="percentTag">Percent:</p>
-    <div id="spriteImage" class="bg-spriteSize"></div>
+        <p>Die hier verwendete Grafik wurde selbst erstellt. Die Sprite Animation wurde als CSS Image Sprite
+            umgesetzt. Hier wurde unterstützend ein
+            <a href="https://www.toptal.com/developers/css/sprite-generator/" target="_blank">Sprite Generator</a>
+            genutzt. Die linke Checkbox bestimmt die Drehrichtung, die rechte, ob die Drehung kontinuierlich ist.
+        </p>
+
+        <p>Wenn die Drehung nicht kontinuierlich ist, kann mit Hilde der Buttons jeweils ein Schritt nach links
+            oder rechts gegangen werden. Ebenso können die Tasten "l" (links) und "r" (rechts) verwendet werden.
+        </p>
+    </div>
+
+    <div id="checkBar">
+        <input type="checkbox" id="rechts_drehen" name="rechts_drehen" value="1" checked="checked">
+        <label for="rechts_drehen">Nach rechts drehen</label>
+        <input type="checkbox" id="fortlaufen_drehen" name="fortlaufen_drehen" value="0" checked="unchecked">
+        <label for="fortlaufen_drehen">Fortlaufend drehen</label>
+    </div>
+
+    <div id="buttonBar">
+        <button id="step_left" class="btn btn-primary" disabled="disabled">
+            Einen Schritt nach links
+        </button>
+        <button id="step_right" class="btn btn-primary" disabled="disabled">
+            Einen Schritt nach rechts
+        </button>
+    </div>
+
+    <div id="image_area">
+        <p id="percentTag">Percent:</p>
+        <div id="spriteImage" class="bg-spriteSize"></div>
+    </div>
 </div>
 
 <script src="script/main.js"></script>
+
+<!-- JavaScript Bundle with Popper -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
+        crossorigin="anonymous"></script>
 
 </body>
 </html>

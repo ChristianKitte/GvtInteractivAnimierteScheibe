@@ -1,0 +1,48 @@
+body {
+    margin-top: 2%;
+    margin-left: 2%;
+}
+
+#layout {
+    margin: 4px;
+    display: flex;
+    flex-direction: column;
+}
+
+#caption {
+    padding: 1%;
+    border-radius: 20px;
+
+    background-color: #f8f8f8;
+}
+
+#buttonBar {
+    margin-top: 2px;
+    padding: 1%;
+    border-radius: 20px;
+
+    background-color: #f8f8f8;
+}
+
+#buttonBar > button {
+    margin: 3px;
+    width: 15%;
+}
+
+#checkBar {
+    margin-top: 2px;
+    padding: 1%;
+    border-radius: 20px;
+
+    background-color: #f8f8f8;
+}
+
+#checkBar > input {
+    margin-left: 9px;
+    margin-right: 10px;
+}
+
+#image_area {
+    margin-top: 2px;
+    padding: 2%;
+}
