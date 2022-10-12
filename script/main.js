@@ -109,17 +109,15 @@ document.getElementById("step_left").onclick = () => {
 
 /**
  * Händelt die Checkbox für die Drehrichtung
- * @param x Das zugehörige Event
  */
-check_rechts_drehen.onchange = (x) => {
+check_rechts_drehen.onchange = () => {
     moveForward = document.getElementById("rechts_drehen").checked;
 }
 
 /**
  * Händelt die Checkbox für die kontinuierliche Drehung
- * @param x Das zugehörige Event
  */
-check_fortlaufen_drehen.onchange = (x) => {
+check_fortlaufen_drehen.onchange = () => {
     autoRun = document.getElementById("fortlaufen_drehen").checked;
 
     if (autoRun) {
