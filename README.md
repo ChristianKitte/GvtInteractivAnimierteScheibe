@@ -21,7 +21,9 @@ Im Rahmen der ersten Einsendeaufgabe sollte eine sich drehende Scheibe als Sprit
 
 Die hierfür verwendete Grafik wurde selbst erstellt und anschließend mit einem [Sprite Generator](https://www.toptal.com/developers/css/sprite-generator/) zu einem Sprite zusammen gesetzt. Hierbei erstellte das verwendete Tool ebenfalls die benötigten CSS Klassen zum Einbinden der Teilbilder.
 
-Über zwei Checkboxen kann zum einen die Drehrichtung, zum anderen das automatische Drehen gesteuert werden. Sofern die Drehung nicht automatisch ausgeführt wird, kann mit Hilde der Buttons jeweils ein Schritt nach links oder rechts gegangen werden. Ebenso können hierfür die Tasten "l" (links) und "r" (rechts) verwendet werden.
+Über zwei Checkboxen kann zum einen die Drehrichtung, zum anderen das automatische Drehen gesteuert werden. Zudem kann die Drehrichtung mit Hilfe der Taste "a" an bzw. bei nochmaligen Drücken ausgeschaltet werden. 
+
+Sofern die Drehung nicht automatisch ausgeführt wird, kann mit Hilde der Buttons jeweils ein Schritt nach links oder rechts gegangen werden. Ebenso können hierfür die Tasten "l" (links) und "r" (rechts) verwendet werden.
 
 Als Startseite dient wie üblich eine **index.html**. Die Datei **main.css** enthält alle benötigten Klassen, um die Grafik einfach einzubinden. In der Datei **layout.css** wird das Layout der Webseite selbst festgelegt. Daneben kommt Bootstrap für die Buttons zum Einsatz. Die gesamte Logik der Anwendung befindet sich in der Datei **main.js**. Im Ordner Images befindet sich die eigentliche Sprite-Datei **css_sprites.png**. 
 
