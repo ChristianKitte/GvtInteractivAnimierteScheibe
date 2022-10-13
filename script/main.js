@@ -74,21 +74,29 @@ window.onload = () => {
 /**
  * Händelt die Eingabe der Tasten "r" (rechts) und "l" (links) und startet die
  * zugehörige Aktion zur Drehung, sofern keine forlaufende Drehung gewählt wurde.
+ * Die Eingabe der Taste "a" toggeld zwischen duaernder ausführung und nicht
+ * dauernder Ausführung.
  * @param event Das zugehörige Event
  */
 document.querySelector('body').onkeydown = (event) => {
     autoRun = document.getElementById("fortlaufen_drehen").checked;
 
-    if (!autoRun) {
-        //console.log(event.key);
+    if (event.key === "a") {
+        document.getElementById("fortlaufen_drehen").checked = !autoRun;
+        autoRun = document.getElementById("fortlaufen_drehen").checked;
+        handleAutoRunChanged()
+    } else {
+        if (!autoRun) {
+            //console.log(event.key);
 
-        switch (event.key) {
-            case "l":
-                showNext(false);
-                break;
-            case "r":
-                showNext(true);
-                break;
+            switch (event.key) {
+                case "l":
+                    showNext(false);
+                    break;
+                case "r":
+                    showNext(true);
+                    break;
+            }
         }
     }
 }
@@ -115,11 +123,17 @@ check_rechts_drehen.onchange = () => {
 }
 
 /**
- * Händelt die Checkbox für die kontinuierliche Drehung
+ * Händelt die Änderung der Checkbox für die kontinuierliche Drehung
  */
 check_fortlaufen_drehen.onchange = () => {
     autoRun = document.getElementById("fortlaufen_drehen").checked;
+    handleAutoRunChanged();
+}
 
+/**
+ * Händelt die kontinuierliche Drehung
+ */
+function handleAutoRunChanged() {
     if (autoRun) {
         intervallID = setInterval("showNext(moveForward)", 125);
         document.getElementById("step_right").disabled = true;
