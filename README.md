@@ -19,11 +19,15 @@ Informatics**
 
 Im Rahmen der ersten Einsendeaufgabe sollte eine sich drehende Scheibe als Sprite Animation umgesetzt werden. Hierbei sollte der aktuelle Rotationszustand angezeigt sowie die Option ermöglicht werden, die Animation sich schrittweise drehen zu lassen.
 
-Die hierfür verwendete Grafik wurde selbst erstellt und anschließend mit einem [Sprite Generator](https://www.toptal.com/developers/css/sprite-generator/) zu einem Sprite zusammen gesetzt. Hierbei erstellte das verwendete Tool ebenfalls die benötigten CSS Klassen zum Einbinden der Teilbilder.
+![](assets/2022-10-16-13-41-53-image.png)
+
+Die hierfür verwendete Grafik css_sprites.png wurde selbst erstellt und anschließend mit einem [Sprite Generator](https://www.toptal.com/developers/css/sprite-generator/) zu einem Sprite zusammen gesetzt. Hierbei erstellte das verwendete Tool ebenfalls die benötigten CSS Klassen zum Einbinden der Teilbilder.
 
 Über zwei Checkboxen kann zum einen die Drehrichtung, zum anderen das automatische Drehen gesteuert werden. Zudem kann die Drehrichtung mit Hilfe der Taste "a" an- bzw. bei nochmaligen Drücken ausgeschaltet werden. 
 
 Sofern die Drehung nicht automatisch ausgeführt wird, kann mit Hilde der Buttons jeweils ein Schritt nach links oder rechts gegangen werden. Ebenso können hierfür die Tasten "l" (links) und "r" (rechts) verwendet werden.
+
+![](assets/2022-10-16-13-39-31-image.png)
 
 Als Startseite dient wie üblich eine **index.html**. Die Datei **main.css** enthält alle benötigten Klassen, um die Grafik einfach einzubinden. In der Datei **layout.css** wird das Layout der Webseite selbst festgelegt. Daneben kommt Bootstrap für die Buttons zum Einsatz. Die gesamte Logik der Anwendung befindet sich in der Datei **main.js**. Im Ordner Images befindet sich die eigentliche Sprite-Datei **css_sprites.png**. 
 
