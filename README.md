@@ -21,11 +21,11 @@ Im Rahmen der ersten Einsendeaufgabe sollte eine sich drehende Scheibe als Sprit
 
 ![](assets/2022-10-16-13-41-53-image.png)
 
-Die hierfür verwendete Grafik css_sprites.png wurde selbst erstellt und anschließend mit einem [Sprite Generator](https://www.toptal.com/developers/css/sprite-generator/) zu einem Sprite zusammen gesetzt. Hierbei erstellte das verwendete Tool ebenfalls die benötigten CSS Klassen zum Einbinden der Teilbilder.
+Die hierfür verwendete Grafik **css_sprites.png** wurde selbst erstellt und anschließend mit einem [Sprite Generator](https://www.toptal.com/developers/css/sprite-generator/) zu einem Sprite zusammen gesetzt. Hierbei erstellte das verwendete Tool ebenfalls die benötigten CSS Klassen zum Einbinden der Teilbilder.
 
-Über zwei Checkboxen kann zum einen die Drehrichtung, zum anderen das automatische Drehen gesteuert werden. Zudem kann die Drehrichtung mit Hilfe der Taste "a" an- bzw. bei nochmaligen Drücken ausgeschaltet werden. 
+Über zwei Checkboxen kann zum einen die Drehrichtung, zum anderen das automatische Drehen gesteuert werden. Zudem kann die Drehrichtung mit Hilfe der Taste **"a"** an- bzw. bei nochmaligen Drücken ausgeschaltet werden. 
 
-Sofern die Drehung nicht automatisch ausgeführt wird, kann mit Hilde der Buttons jeweils ein Schritt nach links oder rechts gegangen werden. Ebenso können hierfür die Tasten "l" (links) und "r" (rechts) verwendet werden.
+Sofern die Drehung nicht automatisch ausgeführt wird, kann mit Hilde der Buttons jeweils ein Schritt nach links oder rechts gegangen werden. Ebenso können hierfür die Tasten **"l"** (links) und **"r"** (rechts) verwendet werden.
 
 ![](assets/2022-10-16-13-39-31-image.png)
 
