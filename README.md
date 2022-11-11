@@ -13,7 +13,7 @@ Informatics**
 
 ---
 
-### Einsendeaufgabe EA1 : Interaktiv animierte Scheibe.
+### Einsendeaufgabe EA1 : Interaktiv animierte Scheibe
 
 [zur Webseite](https://gvt.ckitte.de/ea1/)
 
